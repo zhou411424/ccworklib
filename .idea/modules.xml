@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/ccworklib.iml" filepath="$PROJECT_DIR$/ccworklib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccworklibrary/ccworklibrary.iml" filepath="$PROJECT_DIR$/ccworklibrary/ccworklibrary.iml" />
     </modules>
   </component>
 </project>

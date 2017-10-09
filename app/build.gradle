@@ -4,9 +4,9 @@ apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 
 //项目主页
-def siteUrl = ''
+def siteUrl = 'https://github.com/zhou411424/ccworklib'
 //项目的版本控制地址
-def gitUrl = ''
+def gitUrl = 'https://github.com/zhou411424/ccworklib.git'
 
 //发布到组织名称，必须填写
 group = "com.ccworklib"
@@ -17,12 +17,12 @@ version = "1.0.0"
 /**上面配置后上传到jcenter后的编译路径是这样的： compile 'com.ccworklib:ccworklib:1.0.0' */
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    compileSdkVersion 26
+    buildToolsVersion "26.0.1"
     defaultConfig {
         applicationId "com.ccworklib"
         minSdkVersion 15
-        targetSdkVersion 25
+        targetSdkVersion 26
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -40,7 +40,7 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:25.+'
+    compile 'com.android.support:appcompat-v7:26.+'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
 }
@@ -90,7 +90,7 @@ install {
                 licenses {
                     license {
                         name 'The Apache Software License, Version 2.0'
-                        url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                        url siteUrl
                     }
                 }
                 developers {
