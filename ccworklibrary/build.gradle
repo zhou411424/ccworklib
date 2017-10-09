@@ -95,9 +95,9 @@ install {
                 }
                 developers {
                     developer {
-                        id 'zhou411424'
-                        name 'zhou411424'
-                        email 'zhoulc668@163.com'
+                        id 'zhoulc668'
+                        name 'zhoulc668'
+                        email 'zhoulc668@sohu.com'
                     }
                 }
                 scm {

@@ -18,8 +18,8 @@ allprojects {
     repositories {
         jcenter()
         mavenCentral()
-        maven { url "http://dl.bintray.com/zhou411424/maven" }
-        maven { url "https://jitpack.io" }
+        maven { url "http://dl.bintray.com/zhoulc668/maven" }
+        maven { url "https://jitpack.io" }//jitpack仓库
     }
 }
 
